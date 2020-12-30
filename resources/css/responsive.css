@@ -1,0 +1,129 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 850px) {
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  nav li .fa-angle-down,
+  .sub-menu {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col14 {
+    width: calc(50% - 30px);
+  }
+  .latest-courses .col14,
+  .latest-tutorials .col14 {
+    height: 400px;
+  }
+  .students-say img,
+  .students-text {
+    width: 100%;
+  }
+  .students-say img {
+    margin-bottom: 10px;
+  }
+  .hero {
+    min-height: 400px;
+  }
+  .search-type {
+    margin-bottom: 30px;
+  }
+  .search-courses .button,
+  .search-type {
+    width: calc(40% - 30px);
+  }
+  .search-category,
+  .search-keywords {
+    width: calc(60% - 30px);
+  }
+  .footer-bottom-left,
+  .footer-bottom-center,
+  .footer-bottom-right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .footer-bottom-center {
+    margin: 10px 0;
+  }
+  .blog-content,
+  .blog-sidebar {
+    width: 100%;
+  }
+  .blog-content {
+    padding-top: 0;
+  }
+  .blog-sidebar .categories,
+  .blog-sidebar .archives {
+    width: calc(50% - 15px);
+    float: left;
+  }
+  .blog-sidebar .categories {
+    margin-right: 15px;
+  }
+  .blog-sidebar .archives {
+    margin-left: 15px;
+  }
+  .blog-content-navigation.prev,
+  .blog-content-navigation.next {
+    width: 50%;
+  }
+  .blog-content-navigation.page-number {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .header-top-search-right {
+    width: 129px;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col14,
+  .col12 {
+    width: calc(100% - 30px);
+  }
+  .hero {
+    min-height: 500px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .newsletter-email {
+    width: calc(100% - 30px);
+  }
+  .newsletter-subscribe .button {
+    width: calc(100% - 30px);
+    margin: 30px 15px 0 15px;
+  }
+  .latest-tutorials .col14,
+  .latest-courses .col14 {
+    height: 425px;
+  }
+  .header-top .logo {
+    width: 100%;
+  }
+  .header-top .logo {
+    text-align: center;
+  }
+  .header-top-search {
+    display: none;
+  }
+  .create-account-box-inner {
+    padding: 25px;
+  }
+  .create-account-box-outer {
+    padding: 15px;
+  }
+}
